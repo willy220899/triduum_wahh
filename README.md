@@ -8,8 +8,5 @@ Prueba Técnica FullStack para el proceso de selección
 5. `. run.sh bash` - Este comando ejecuta el bash de Django **web**. Usarlo para crear un superusuario y cargar los fixtures.json y poblar así la base de datos `python manage.py loaddata fixture.json`
 6. Revisar `<localhost:8000>/redoc/` y `<localhost:8000>/swagger/` para visualizar la documentación de la API
 
-### Creado Por:
--  Juan Jose Monsalve Patiño
--  Backend Tech Leader
--  juanjomonsa45890@gmail.com
+### Creado:
 -  2023-07-03
