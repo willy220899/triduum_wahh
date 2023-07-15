@@ -10,6 +10,7 @@ class Film(models.Model):
     producers = models.JSONField('Producers', default=list)
     release_date = models.DateField('Release date')
     planets = models.ManyToManyField('Planet', related_name='planets')
+    characters = models.ManyToManyField('Character', related_name='characters')
     
     class Meta:
         ordering = ('id',)

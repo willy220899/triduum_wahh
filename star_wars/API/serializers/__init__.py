@@ -1,3 +1,3 @@
+from .CharacterSerializer import CharacterSerializer
 from .PlanetSerializer import PlanetSerializer
 from .FilmSerializer import FilmSerializer
-from .CharacterSerializer import CharacterSerializer

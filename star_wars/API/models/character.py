@@ -8,13 +8,14 @@ class Character(models.Model):
                     ('female', 'Female'),
                     ('unknown', 'Unknown'),)
     
-    name = models.CharField('Name', max_length=100)
+    name = models.CharField('Character Name', max_length=100)
     gender = models.CharField('Gender', choices=GENDER_CHOICES, max_length=7)
     age = models.IntegerField('Age')
     skin_color = models.CharField('Skin color', max_length=30)
     eye_color = models.CharField('Eye color', max_length=30)
     height = models.IntegerField('Height')
     mass = models.IntegerField('Mass')
+    imagen = models.CharField('Imagen')
     
     class Meta:
         ordering = ('id',)

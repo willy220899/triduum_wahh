@@ -15,13 +15,14 @@ class Migration(migrations.Migration):
             name='Character',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=100, verbose_name='Name')),
+                ('name', models.CharField(max_length=100, verbose_name='Character Name')),
                 ('gender', models.CharField(choices=[('male', 'Male'), ('female', 'Female'), ('unknown', 'Unknown')], max_length=7, verbose_name='Gender')),
                 ('age', models.IntegerField(verbose_name='Age')),
                 ('skin_color', models.CharField(max_length=30, verbose_name='Skin color')),
                 ('eye_color', models.CharField(max_length=30, verbose_name='Eye color')),
                 ('height', models.IntegerField(verbose_name='Height')),
                 ('mass', models.IntegerField(verbose_name='Mass')),
+                ('imagen', models.CharField(verbose_name='Imagen')),
             ],
             options={
                 'verbose_name': 'Character',
@@ -55,6 +56,7 @@ class Migration(migrations.Migration):
                 ('producers', models.JSONField(default=list, verbose_name='Producers')),
                 ('release_date', models.DateField(verbose_name='Release date')),
                 ('planets', models.ManyToManyField(related_name='planets', to='API.planet')),
+                ('characters', models.ManyToManyField(related_name='characters', to='API.character')),
             ],
             options={
                 'verbose_name': 'Film',

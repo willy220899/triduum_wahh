@@ -1,7 +1,7 @@
 [
     {
         "model": "API.film",
-        "pk": 1,
+        "pk": 10,
         "fields": {
             "title": "Spencer - Powlowski",
             "opening_crawl": "Suscipit nisi necessitatibus recusandae corrupti iusto odio. Molestias facilis libero voluptatibus ullam. Magnam debitis dolores animi molestias exercitationem architecto sit fugiat ipsam.",
@@ -22,7 +22,7 @@
     },
     {
         "model": "API.film",
-        "pk": 2,
+        "pk": 11,
         "fields": {
             "title": "Hagenes LLC",
             "opening_crawl": "Non ad magni. Recusandae vero eaque fuga. Doloremque possimus facilis odit distinctio itaque. Eius non soluta ad cum reiciendis. Illo totam delectus rerum ducimus eaque illo est illo.",
@@ -44,7 +44,7 @@
     },
     {
         "model": "API.film",
-        "pk": 3,
+        "pk": 12,
         "fields": {
             "title": "Gislason LLC",
             "opening_crawl": "Beatae ea modi ipsa illo accusantium. Odio aliquam velit. Sunt officia rerum rerum recusandae dolorem. Ipsam laudantium cupiditate voluptatibus illum dolores vero ipsum. Aliquam doloribus blanditiis unde maiores quia. Facere consequuntur facilis.",
@@ -65,7 +65,7 @@
     },
     {
         "model": "API.film",
-        "pk": 4,
+        "pk": 13,
         "fields": {
             "title": "Farrell, Boyle and Hagenes",
             "opening_crawl": "Corrupti dolore aspernatur illum. Omnis minima inventore. Hic odit ad illo a saepe ullam. Quibusdam aliquam ut nemo id accusantium iusto. Officiis necessitatibus saepe.",
@@ -85,7 +85,7 @@
     },
     {
         "model": "API.film",
-        "pk": 5,
+        "pk": 14,
         "fields": {
             "title": "Keeling - Leuschke",
             "opening_crawl": "Corrupti distinctio fugiat quaerat numquam quod culpa temporibus culpa. Reiciendis laboriosam omnis itaque beatae odio nulla. Veniam ad tempore. Quod deleniti nulla accusantium quidem quaerat voluptate inventore sequi. Atque similique illo consequatur inventore hic nostrum autem sunt nulla. Sed nesciunt ducimus tempora incidunt.",
@@ -106,7 +106,7 @@
     },
     {
         "model": "API.film",
-        "pk": 6,
+        "pk": 15,
         "fields": {
             "title": "Erdman - Legros",
             "opening_crawl": "Temporibus quae ipsum. Cum nam nobis officia laborum nesciunt itaque harum. Quisquam culpa consequatur beatae eius repellendus architecto. Quis blanditiis soluta magnam magnam saepe ipsam adipisci laboriosam blanditiis.",
@@ -127,7 +127,7 @@
     },
     {
         "model": "API.film",
-        "pk": 7,
+        "pk": 16,
         "fields": {
             "title": "McClure - Jerde",
             "opening_crawl": "Ea ratione quia. Consequatur pariatur dolor consequuntur similique soluta eos ea vel laudantium. Necessitatibus accusamus veniam quibusdam illum unde voluptatibus. Labore voluptatum dicta minima consequuntur doloribus labore adipisci error. Officia nulla aut dolorem soluta.",
@@ -148,7 +148,7 @@
     },
     {
         "model": "API.film",
-        "pk": 8,
+        "pk": 17,
         "fields": {
             "title": "Rodriguez LLC",
             "opening_crawl": "Veniam repellendus hic inventore a quod facilis et delectus. Vel nemo dolorem tempore corrupti dolore maiores et omnis. Quo quibusdam architecto ipsum nam error. Qui tempora natus corporis quas similique ducimus. Esse vitae cum dolorem repellendus ex.",
@@ -168,7 +168,7 @@
     },
     {
         "model": "API.planet",
-        "pk": 1,
+        "pk": 27,
         "fields": {
             "name": "Guadeloupe",
             "diameter": "7",
@@ -179,7 +179,7 @@
     },
     {
         "model": "API.planet",
-        "pk": 2,
+        "pk": 28,
         "fields": {
             "name": "Philippines",
             "diameter": "8",
@@ -190,7 +190,7 @@
     },
     {
         "model": "API.planet",
-        "pk": 3,
+        "pk": 29,
         "fields": {
             "name": "Serbia",
             "diameter": "9",
@@ -201,7 +201,7 @@
     },
     {
         "model": "API.planet",
-        "pk": 4,
+        "pk": 30,
         "fields": {
             "name": "Uzbekistan",
             "diameter": "5",
@@ -212,7 +212,7 @@
     },
     {
         "model": "API.planet",
-        "pk": 5,
+        "pk": 31,
         "fields": {
             "name": "Burkina Faso",
             "diameter": "3",
@@ -223,7 +223,7 @@
     },
     {
         "model": "API.planet",
-        "pk": 6,
+        "pk": 32,
         "fields": {
             "name": "Northern Mariana Islands",
             "diameter": "1",
@@ -234,7 +234,7 @@
     },
     {
         "model": "API.planet",
-        "pk": 7,
+        "pk": 33,
         "fields": {
             "name": "Gambia",
             "diameter": "1",
@@ -245,7 +245,7 @@
     },
     {
         "model": "API.planet",
-        "pk": 8,
+        "pk": 34,
         "fields": {
             "name": "Costa Rica",
             "diameter": "1",
@@ -256,7 +256,7 @@
     },
     {
         "model": "API.planet",
-        "pk": 9,
+        "pk": 35,
         "fields": {
             "name": "Hong Kong",
             "diameter": "7",
@@ -267,13 +267,922 @@
     },
     {
         "model": "API.planet",
-        "pk": 10,
+        "pk": 36,
         "fields": {
             "name": "Burkina Faso",
             "diameter": "6",
             "gravity": 51,
             "population": 132,
             "climate": "purple"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 1,
+        "fields": {
+            "name":"Luke Skywalker",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/08/swbf2-refresh-hero-large-heroes-page-luke-skywalker-16x9-xl.jpg.adapt.crop3x2.1455w.jpg"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 2,
+        "fields": {
+            "name":"Leia Organa",
+            "gender":"female",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://swrpggm.com/wp-content/uploads/2020/01/liea2esb.png"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 3,
+        "fields": {
+            "name":"Han Solo",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://upload.wikimedia.org/wikipedia/en/b/be/Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 4,
+        "fields": {
+            "name":"Darth Vader",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://videnskab.dk/wp-content/uploads/2020/05/shutterstock-280768850-1.jpg"
+            
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 5,
+        "fields": {
+            "name":"Obi-Wan Kenobi",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://imagenes.elpais.com/resizer/kLuBLLFwt9jgoDLROigr02Rc8dw=/980x980/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/4BFGJNEZ47YQPY4Q2R4TSUTPBY.jpg"
+            
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 6,
+        "fields": {
+            "name":"Yoda",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/200612/yoda_star-wars_gallery_646559c53f4f0.jpg"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 7,
+        "fields": {
+            "name":"Palpatine (también conocido como Darth Sidious)",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://lanetaneta.com/wp-content/uploads/2019/12/Quien-es-palpatine-Star-Wars-The-Rise-of-Skywalker-Villain.jpg"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 8,
+        "fields": {
+            "name":"Chewbacca",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=27%2C0%2C535%2C536"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 9,
+        "fields": {
+            "name":"R2-D2",
+            "gender":"unknown",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://www.sideshow.com/storage/product-images/2172/r2-d2-deluxe_star-wars_feature.jpg"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 10,
+        "fields": {
+            "name":"C-3PO",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://lumiere-a.akamaihd.net/v1/images/6023eab8d941ed00018d113f-image_6f532508.jpeg?region=336%2C0%2C864%2C864"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 11,
+        "fields": {
+            "name":"Lando Calrissian",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2019/03/star-wars-episodio-ix-lando-calrissian-spoiler.jpg"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 12,
+        "fields": {
+            "name":"Anakin Skywalker (también conocido como Darth Vader)",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://static.wikia.nocookie.net/esstarwars/images/6/6f/Anakin_Skywalker_RotS.png/revision/latest?cb=20160226204939"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 13,
+        "fields": {
+            "name":"Padmé Amidala",
+            "gender":"female",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://static.wikia.nocookie.net/esstarwars/images/0/0d/Reina_Amidala.jpg/revision/latest?cb=20080808001232"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 14,
+        "fields": {
+            "name":"Qui-Gon Jinn",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://static.wikia.nocookie.net/star-wikiwars/images/7/7a/Qui-Gon_Jinn_1.jpg/revision/latest?cb=20141124191715"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 15,
+        "fields": {
+            "name":"Mace Windu",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://static.wikia.nocookie.net/p__/images/f/fc/Mace_Windu.jpg/revision/latest?cb=20180519160844&path-prefix=protagonist"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 16,
+        "fields": {
+            "name":"Rey",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://img.asmedia.epimg.net/resizer/_w8FiwZ1NQPvV2vRYMteBxuwfag=/1472x828/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/WAKCYCLVZZEVPOG6JLYMMKT454.png"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 17,
+        "fields": {
+            "name":"Finn (FN-2187)",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://www.cinepremiere.com.mx/wp-content/uploads/2020/04/Finn_Star-Wars.jpg"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 18,
+        "fields": {
+            "name":"Poe Dameron",
+            "gender":"female",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/noticias-cine/x-wing-poe-dameron-star-wars-los-ultimos-jedi/137224109-2-esl-ES/Asi-sera-el-X-Wing-de-Poe-Dameron-en-Los-ultimos-Jedi.jpg"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 19,
+        "fields": {
+            "name":"Kylo Ren (Ben Solo)",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://static.wikia.nocookie.net/star-wars-canon-extended/images/c/c0/Kylo2.jpg/revision/latest?cb=20180302084917"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 20,
+        "fields": {
+            "name":"BB-8",
+            "gender":"unknown",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://www.gamerfocus.co/wp-content/uploads/2020/01/bb8.jpeg"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 21,
+        "fields": {
+            "name":"Jyn Erso",
+            "gender":"female",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/11/26/10/jyn-erso-rogue-one.jpg"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 22,
+        "fields": {
+            "name":"Cassian Andor",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2020/04/hipertextual-oscura-historia-cassian-andor-guion-original-rogue-one-historia-star-wars-2020415269.jpg?fit=2500%2C1406&quality=50&strip=all&ssl=1"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 23,
+        "fields": {
+            "name":"Chirrut Îmwe",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/08/rogue-one-historia-star-wars-chirrut-imwe-2454823.jpg?tf=3840x"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 24,
+        "fields": {
+            "name":"Baze Malbus",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://static.wikia.nocookie.net/star-wars-canon-extended/images/c/c8/Baze1.jpg/revision/latest?cb=20170904200615"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 25,
+        "fields": {
+            "name":"Saw Gerrera",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://static.wikia.nocookie.net/esstarwars/images/f/fe/Saw_Gerrera_Rogue_One.png/revision/latest?cb=20160622203011"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 26,
+        "fields": {
+            "name":"Count Dooku (también conocido como Darth Tyranus)",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://static.wikia.nocookie.net/hitlerparody/images/d/d8/Dooku.jpg/revision/latest?cb=20200526124409&path-prefix=es"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 27,
+        "fields": {
+            "name":"General Grievous",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://lumiere-a.akamaihd.net/v1/images/General-Grievous_c9df9cb5.jpeg?region=0%2C0%2C1200%2C675"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 28,
+        "fields": {
+            "name":"Jar Jar Binks",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://lumiere-a.akamaihd.net/v1/images/databank_jarjarbinks_01_169_c70767ab.jpeg?region=230%2C0%2C878%2C878"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 29,
+        "fields": {
+            "name":"Captain Rex",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://i.etsystatic.com/17372453/r/il/a237f9/1791611739/il_1080xN.1791611739_5uom.jpg"
+        }
+    },
+    {
+        "model": "API.character",
+        "pk": 30,
+        "fields": {
+            "name":"Ahsoka Tano",
+            "gender":"male",
+            "age":"25",
+            "skin_color":"white",
+            "eye_color":"black",
+            "height":"180",
+            "mass":"75",
+            "imagen":"https://lumiere-a.akamaihd.net/v1/images/ashoka_tano_star_wars_112aa79f.jpeg?region=257,0,954,536"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 1,
+        "fields": {
+            "name": "Tatooine",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 2,
+        "fields": {
+            "name": "Alderaan",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 3,
+        "fields": {
+            "name": "Yavin IV",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 4,
+        "fields": {
+            "name": "Hoth",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 5,
+        "fields": {
+            "name": "Dagobah",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 6,
+        "fields": {
+            "name": "Bespin",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 7,
+        "fields": {
+            "name": "Endor",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 8,
+        "fields": {
+            "name": "Naboo",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 9,
+        "fields": {
+            "name": "Coruscant",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 10,
+        "fields": {
+            "name": "Kamino",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 11,
+        "fields": {
+            "name": "Geonosis",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 12,
+        "fields": {
+            "name": "Utapau",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 13,
+        "fields": {
+            "name": "Mustafar",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 14,
+        "fields": {
+            "name": "Kashyyyk",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 15,
+        "fields": {
+            "name": "Jakku",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 16,
+        "fields": {
+            "name": "Takodana",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 17,
+        "fields": {
+            "name": "Starkiller Base",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 18,
+        "fields": {
+            "name": "Ahch-To",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 19,
+        "fields": {
+            "name": "Crait",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 20,
+        "fields": {
+            "name": "Cantonica",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 21,
+        "fields": {
+            "name": "Exegol",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 22,
+        "fields": {
+            "name": "Pasaana",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 23,
+        "fields": {
+            "name": "Kijimi",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 24,
+        "fields": {
+            "name": "Ajan Kloss",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 25,
+        "fields": {
+            "name": "Jedha",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.planet",
+        "pk": 26,
+        "fields": {
+            "name": "Scarif",
+            "diameter": "7",
+            "gravity": 73,
+            "population": 198,
+            "climate": "magenta"
+        }
+    },
+    {
+        "model": "API.film",
+        "pk": 4,
+        "fields": {
+            "title": "Star Wars: Episode IV - A New Hope (1977)",
+            "opening_crawl": "Hace mucho tiempo, en una galaxia muy, muy lejana...",
+            "directors": [
+                "George Lucas"
+            ],
+            "producers": [
+                "Gary Kurtz",
+                "Rick McCallum"
+            ],
+            "release_date": "1970-02-22",
+            "planets": [
+                1,
+                2,
+                3
+            ],
+            "characters": [
+                1, 
+                2, 
+                3, 
+                4, 
+                5, 
+                8, 
+                9, 
+                10
+            ]
+        }
+    },
+    {
+        "model": "API.film",
+        "pk": 5,
+        "fields": {
+            "title": "Star Wars: Episode V - The Empire Strikes Back (1980)",
+            "opening_crawl": "Es una época oscura para la Rebelión...",
+            "directors": [
+                "Irvin Kershner"
+            ],
+            "producers": [
+                "Gary Kurtz"
+            ],
+            "release_date": "1970-02-22",
+            "planets": [
+                4,
+                5,
+                6
+            ],
+            "characters": [
+                1, 2, 3, 4, 6, 8, 9, 11
+            ]
+        }
+    },
+    {
+        "model": "API.film",
+        "pk": 6,
+        "fields": {
+            "title": "Star Wars: Episode VI - Return of the Jedi (1983)",
+            "opening_crawl": "Luke Skywalker ha regresado a su planeta natal de Tatooine...",
+            "directors": [
+                "Richard Marquand"
+            ],
+            "producers": [
+                "Howard Kazanjian"
+            ],
+            "release_date": "1970-02-22",
+            "planets": [
+                1, 7, 5, 8
+            ],
+            "characters": [
+                1, 2, 3, 4, 5, 6, 8, 9, 11
+            ]
+        }
+    },
+    {
+        "model": "API.film",
+        "pk": 1,
+        "fields": {
+            "title": "Star Wars: Episode I - The Phantom Menace (1999)",
+            "opening_crawl": "La Federación de Comercio ha bloqueado el planeta de Naboo...",
+            "directors": [
+                "George Lucas"
+            ],
+            "producers": [
+                "Rick McCallum"
+            ],
+            "release_date": "1970-02-22",
+            "planets": [
+                1, 8, 9
+            ],
+            "characters": [
+                14, 5, 13, 12
+            ]
+        }
+    },
+    {
+        "model": "API.film",
+        "pk": 2,
+        "fields": {
+            "title": "Star Wars: Episode II - Attack of the Clones (2002)",
+            "opening_crawl": "Hay agitación en la República...",
+            "directors": [
+                "George Lucas"
+            ],
+            "producers": [
+                "Rick McCallum"
+            ],
+            "release_date": "1970-02-22",
+            "planets": [
+                9, 12, 13, 14
+            ],
+            "characters": [
+                5, 13, 12, 26
+            ]
+        }
+    },
+    {
+        "model": "API.film",
+        "pk": 3,
+        "fields": {
+            "title": "Star Wars: Episode III - Revenge of the Sith (2005)",
+            "opening_crawl": "La guerra de los clones ha devastado la galaxia...",
+            "directors": [
+                "George Lucas"
+            ],
+            "producers": [
+                "Rick McCallum"
+            ],
+            "release_date": "1970-02-22",
+            "planets": [
+                9, 12, 13, 14
+            ],
+            "characters": [
+                5, 13, 12, 6, 7, 15
+            ]
+        }
+    },
+    {
+        "model": "API.film",
+        "pk": 7,
+        "fields": {
+            "title": "Star Wars: Episode VII - The Force Awakens (2015)",
+            "opening_crawl": "Luke Skywalker ha desaparecido...",
+            "directors": [
+                "J.J. Abrams"
+            ],
+            "producers": [
+                "Kathleen Kennedy", "J.J. Abrams", "Bryan Burk"
+            ],
+            "release_date": "1970-02-22",
+            "planets": [
+                15, 16, 17
+            ],
+            "characters": [
+                16, 17, 18, 19, 20, 8
+            ]
+        }
+    },
+    {
+        "model": "API.film",
+        "pk": 8,
+        "fields": {
+            "title": "Star Wars: Episode VIII - The Last Jedi (2017)",
+            "opening_crawl": "La Primera Orden ha surgido de las cenizas del Imperio...",
+            "directors": [
+                "Rian Johnson"
+            ],
+            "producers": [
+                "Kathleen Kennedy", "Ram Bergman"
+            ],
+            "release_date": "1970-02-22",
+            "planets": [
+                18, 19, 20
+            ],
+            "characters": [
+                16, 17, 18, 19, 1, 2
+            ]
+        }
+    },
+    {
+        "model": "API.film",
+        "pk": 9,
+        "fields": {
+            "title": "Star Wars: Episode IX - The Rise of Skywalker (2019)",
+            "opening_crawl": "El emperador Palpatine ha regresado...",
+            "directors": [
+                "J.J. Abrams"
+            ],
+            "producers": [
+                "Kathleen Kennedy", "J.J. Abrams", "Michelle Rejwan"
+            ],
+            "release_date": "1970-02-22",
+            "planets": [
+                21, 22, 23, 24
+            ],
+            "characters": [
+                16, 17, 18, 19, 8, 10, 11
+            ]
         }
     }
 ]
